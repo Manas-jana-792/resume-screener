@@ -98,7 +98,7 @@ def predict_category(pipeline: Pipeline, resume_text: str) -> tuple:
 
 if __name__ == "__main__":
     # Run this file directly to train:  python -m models.classifier
-    CSV_PATH = "data/raw/resume_dataset/Resume/Resume.csv"
+    CSV_PATH = "data/raw/Resume/Resume.csv"
     model = train_classifier(CSV_PATH)
 
     sample = "Experienced HR manager skilled in recruitment, employee relations, and payroll."
